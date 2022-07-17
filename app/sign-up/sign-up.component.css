@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+ 
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #153a5b;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 100px;
+
+
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: gray;
+    
+}
+input{
+    height: 40px;
+    margin-bottom: 30px;
+
+}
+input::placeholder{
+    font-family: 'poppins',sans-serif;
+    padding-left: 10px;
+
+}
+#a{
+    margin-left: 10px;
+}
+.btn{
+    color: white;
+    background-color: #153a5b;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    border: gray 1px solid;
+    border-radius: 0;
+    margin-left: 100px;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #153a5b;
+    border: gray 1px solid;
+    transition-duration: 0.5s;
+}

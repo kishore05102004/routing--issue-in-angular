@@ -1,0 +1,77 @@
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 ">
+        <h1 class="text-center">New Account</h1>
+    </div>
+    <div class="col-sm-4"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-3">
+        <form action="">
+            <div class="form-group">
+                <label for="email">Email Address</label><br>
+                <br>
+                <input type="email" id="email" placeholder="email Address" size="60" [(ngModel)]="RUserData.email" name="email" required>
+                
+                <label for="pass">Confirm Password</label><br> <br>
+                <input type="password" id="pass" placeholder="password" size="60">
+
+                <label for="fname">First Name</label><br> <br>
+                <input type="text" id="fname" placeholder="first name" size="60">
+
+                <label for="a1">Address Line 1</label><br> <br>
+                <input type="text" id="a1" placeholder="password" size="60">
+
+
+                <label for="pass">State/Province</label><br> <br>
+                <input type="text" id="pass" placeholder="password" size="60">
+
+
+                <label for="pass">Phone Number</label><br> <br>
+                <input type="number" id="pass" placeholder="password" size="60">
+            </div>
+            
+        </form> 
+
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3 " >
+        <form action="" >
+            <div class="form-group" id="a" >
+                <label for="passw">Password</label><br>
+                <br>
+                <input type="email" id="passw" placeholder="Password" size="60" [(ngModel)]="RUserData.password" name="password" required>
+                
+                <label for="country">Country</label><br> <br>
+                <input type="text" id="country" placeholder="Country" size="60">
+
+                <label for="Lname">Last Name</label><br> <br>
+                <input type="text" id="Lname" placeholder="Last name" size="60">
+
+                <label for="a2">Address Line 2</label><br> <br>
+                <input type="password" id="a2" placeholder="password" size="60">
+
+
+                <label for="pass">Suburb/City</label><br> <br>
+                <input type="password" id="pass" placeholder="password" size="60">
+
+
+                <label for="pass">Zip/Post Code</label><br> <br>
+                <input type="password" id="pass" placeholder="password" size="60">
+            </div>
+            
+        </form> 
+        
+    </div>
+    
+
+</div>
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <button style="margin-left: 100px;margin-top: 30px; margin-bottom: 50px;" class="btn" (click)="RUser()">Create Account</button>
+    </div>
+    <div class="col sm-4"></div>
+</div>

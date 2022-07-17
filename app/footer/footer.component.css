@@ -1,0 +1,76 @@
+.lh-lg{
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    
+}
+
+
+.ba{
+    background-color: #153a5b;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+    
+}
+
+.btn{
+    margin-left: 30px;
+    color: #153a5b;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0;
+    margin-bottom: 5px;
+    
+}
+.btn:hover{
+    background-color: #153a5b;
+    color: white;
+    border: white solid 2px;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.list-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    
+  }
+  
+  .list-item {
+    list-style: none;
+  }
+  
+
+  a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .spacer{
+    flex: 1 1 auto;
+  }
+  #e:hover{
+    border: rgb(0, 162, 255) 2px solid;
+  }
+  #e:focus{
+    outline: coral 2px;
+  }
+  
+  
+

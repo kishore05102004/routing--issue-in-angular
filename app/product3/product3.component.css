@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #153a5b;
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #153a5b;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h3{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #153a5b;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn{
+    color: grey;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    border: gray 1px solid;
+    border-radius: 0;
+    margin-left: 10px;
+}
+.btn active{
+    color: #153a5b;
+    border: 1px solid #153a5b;
+}
+p{
+    color: grey;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 100px;
+    margin-top: 25px;
+}
+

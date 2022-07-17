@@ -1,0 +1,91 @@
+<div class="container-fluid ba"  >
+    <div fxLayout="column">
+        <div fxLayout="row r1"  >
+            <div fxFlex="20">
+                <ul  class="text-justify">
+                    <h2 >Help</h2>
+                    <li *ngFor="let helps of help" class="lh-lg" type="none">{{ helps }}</li>
+                </ul>
+            </div>
+
+            <div fxFlex="20">
+                <ul  class="text-justify">
+                    <h2 >Shop</h2>
+                    <li *ngFor="let pro of productitem"  class="lh-lg"  type="none" >{{pro}}</li>
+                </ul>
+            </div>
+
+            <div fxFlex="20">
+                <ul  class="text-justify">
+                    <h2 >About</h2>
+                    <li type="none" *ngFor="let abouts of about" class="lh-lg" >{{abouts}}</li>
+                </ul>
+            </div>
+
+            <div fxFlex="40" >
+                <h2 class="text-justify">Sign Up for our  newsletter</h2>
+                <div class="form-group ">
+                    <input type="email" placeholder="enter your email" id="e">
+                    <button class="btn">sign up</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div fxLayout="row">
+            <div fxFlex="42">
+                <h4> © EROHSIK. All Rights Reversed. </h4>
+            </div>
+
+            <div fxFlex="33" >
+                <ul class="list-list"  fxLayoutGap="20px grid">
+                    <li class="list-item"><img src="/assets/icons8-instagram-32.png" alt=""></li>
+                    <li class="list-item"><img src="/assets/icons8-facebook-32.png" alt=""></li>
+                    <li class="list-item"><img src="/assets/icons8-youtube-32.png" alt=""></li>
+                    <li class="list-item"><img src="/assets/icons8-twitter-32.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div fxFlex="21" class="text-end">
+                <div class="spacer"></div>
+                <a>Terms & Privacy</a>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- <form  fxLayout="row wrap" >
+    <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="16px">
+        <mat-form-field fxFlexFill color="accent">
+            <input id="fName" matInput type="text" placeholder="Your first name" formControlName="firstName">
+        </mat-form-field>
+        <mat-form-field fxFlexFill color="accent">
+            <input id="lName" matInput type="text" placeholder="Your last name" formControlName="lastName">
+        </mat-form-field>
+    </div>
+
+    <mat-form-field fxFlexFill color="accent">
+        <input id="email" matInput type="text" placeholder="Your email" formControlName="email">
+    </mat-form-field>
+    <mat-form-field fxFlexFill color="accent">
+        <textarea
+            matInput
+            [rows]="6"
+            placeholder="Your message"
+            formControlName="message"></textarea>
+    </mat-form-field>
+
+    <button fxFlexFill color="accent" mat-raised-button type="submit">Let's vacation!</button>
+</form> -->

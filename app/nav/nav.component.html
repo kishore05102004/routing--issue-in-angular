@@ -1,0 +1,26 @@
+<mat-toolbar color="primary" class="mat-elevation-z6 " >
+    <span><a routerLink="home">EROHSIK</a></span>
+ 
+    <div class="spacer"> </div>
+    <button mat-flat-button [matMenuTriggerFor]="menu" #menuTrigger="matMenuTrigger" (mouseover)="menuTrigger.openMenu()">
+        product 
+    </button>
+
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+        <span (mouseleave)="menuTrigger.closeMenu()">
+            <!-- <button mat-menu-item  *ngFor="let product of productitem">
+                <span >{{ product }}</span> 
+            </button> -->
+            <button mat-menu-item><a  [routerLink]="['/home','p1']" style="text-decoration:none; color:gray">LARQ Bottle</a></button>
+            <button mat-menu-item><a [routerLink]="['/home','p3']" style="text-decoration:none; color:gray" >LARQ Bottle Filter</a></button>
+            <button mat-menu-item><a [routerLink]="['/home','p2']" style="text-decoration:none; color:gray">Advance Filter</a></button>
+        </span>
+    </mat-menu>
+
+
+    <a mat-button routerLink="signin"  *ngIf="!check()">Sign In</a>
+    <a mat-button (click)="out()" *ngIf="check()" >Log Out</a>
+    <a mat-raised-button color="accent" (click)="cart()" ><mat-icon>shopping_cart</mat-icon>cart</a>
+    
+ 
+ </mat-toolbar>

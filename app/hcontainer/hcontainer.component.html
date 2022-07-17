@@ -1,0 +1,87 @@
+<div class="container-fluid" >
+    <div fxLayout="column" [style.height]="'100%'">
+
+        <h1 class="center">Treading Now</h1>
+        
+
+    </div>
+    <div fxLayout="row wrap" fxLayoutGap="16px grid" id="d">
+        <div fxFlex="30%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of img" id="q">
+            <mat-card class="mat-elevation-z4" id="d">
+
+                <img mat-card-image [src]="num" alt="">
+
+                <mat-card-actions>
+                    <h2 style="text-align: center;">Monaco Blue</h2>
+                </mat-card-actions>
+            </mat-card>
+
+        </div>
+
+    </div>
+
+    <br>
+    <br><br>
+
+    <div fxLayout="row wrap" fxLayoutGap="16px grid" id="d">
+        <div fxFlex="45%" fxFlex.xs="100%" fxFlex.sm="33%"  id="q">
+            <mat-card class="mat-elevation-z4" id="d" style="background-color: #c0e4ff">
+                <mat-card-header>
+                    <img mat-card-xl-image src="/assets/b22.png" fxFlexOrder.xs="1">
+                    <mat-card-title-group style="margin-left: 40px;">
+                        <mat-card-title style="color: #153a5b; font-size: 30px;" fxFlexOrder fxFlexOrder.xs="2"  >
+                            LARQ Bottle <br> <br> Filtered 
+                        </mat-card-title>
+                        <mat-card-subtitle style="font-size:23px ; padding-top: 40px; color: cadetblue;" class="lh-base" fxFlexOrder fxFlexOrder.xs="3">
+                            Take hydration into <br> your own hands.
+                        </mat-card-subtitle>      
+                    </mat-card-title-group>
+                </mat-card-header>
+                <button class="btn" fxFlexOrder fxFlexOrder.xs="4" ><a [routerLink]="['/home','p1']">Shop Now</a></button>
+            </mat-card>
+        </div>
+        <div fxFlex="45%" fxFlex.xs="100%" fxFlex.sm="33%"  id="q">
+            <mat-card class="mat-elevation-z4" id="d" style="background-color: #c0e4ff">
+                <mat-card-header>
+                    <img mat-card-xl-image src="/assets/b33.png" fxFlexOrder.xs="1">
+                    <mat-card-title-group style="margin-left: 40px;">
+                        <mat-card-title style="color: #153a5b; font-size: 30px;" fxFlexOrder fxFlexOrder.xs="2">
+                            LARQ Pitcher  <br> <br>  PureVis™
+                        </mat-card-title>
+                        <mat-card-subtitle style="font-size:23px ; padding-top: 40px; color: cadetblue;" class="lh-base" fxFlexOrder fxFlexOrder.xs="3">
+                            Brilliantly clean <br>  water beyond  <br> filtration.
+                        </mat-card-subtitle>      
+                    </mat-card-title-group>
+                </mat-card-header>
+                <button class="btn"  ><a [routerLink]="['/home','p2']">Shop Now</a></button>
+            </mat-card>
+        </div>
+
+    </div>
+
+    <div fxLayout="row wrap" fxLayoutGap="1px grid" id="d">
+        <div fxFlex="93%" fxFlex.xs="100%" fxflex.sm="33%" id="q">
+            <mat-card  id="d" style="background-color:  #cbcdcf;  padding-bottom: 0px;padding-left: 0;"> 
+                <mat-card-header>
+                    <img  src="/assets/b333.png" alt="" height="510px" width="500px">
+                    <mat-card-title-group class="text-justtify">
+                        <mat-card-title style="color: #153a5b; font-size: 50px; margin-top: 150px; margin-left: 150px;">
+                            LARQ Bottle <br> <br> <br> PureVis™
+                        </mat-card-title>
+
+                        <mat-card-subtitle style="font-size:23px ; padding-top: 40px; padding-left: 150px; color: cadetblue;" class="lh-base">
+                            Brilliantly clean water from a self- <br>cleaning bottle.
+                        </mat-card-subtitle>
+                    </mat-card-title-group>
+                </mat-card-header>
+               
+            </mat-card>
+
+        </div>
+</div>
+
+<br>
+<br>
+
+<br>
+
